@@ -1,9 +1,9 @@
 """
-This challenge is only forPython 2.
+This challenge is only for Python 3.
 
 input()
 
-In Python 2, the expression input() is equivalent to eval(raw _input(prompt)).
+In Python 3, the expression input() is equivalent to eval(input(prompt)).
 
 Code
 
@@ -48,7 +48,7 @@ Hence, the output is True.
 """
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-i = map(int,raw_input().split())
+i = list(map(int,input().split()))
 x,k = i[0],i[1]
 if input() == k:
     print True
